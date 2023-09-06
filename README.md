@@ -22,15 +22,15 @@ Devise marketing strategies to convert casual riders to members.
 Analysis Questions
 Three questions will guide the future marketing program:
 
-Markup : 1.How do annual members and casual riders use Cyclistic bikes differently?
-        2.Why would casual riders buy Cyclistic annual memberships?
-        3.How can Cyclistic use digital media to influence casual riders to become members?
+* 1.How do annual members and casual riders use Cyclistic bikes differently?
+* 2.Why would casual riders buy Cyclistic annual memberships?
+* 3.How can Cyclistic use digital media to influence casual riders to become members?
 
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
 # PREPARE #
 
-## Data Source ##:
+## Data Source: ##
 I will use Cyclistic’s historical trip data to analyze and identify trends from Jan 2022 to Dec 2022 which can be downloaded from divvy_tripdata. The data has been made available by Motivate International Inc.
 
 This is public data that can be used to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit from using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
@@ -52,7 +52,7 @@ A worksheet cannot be able to manage large amounts of data. The Cyclistic datase
 # DATA EXPLORATION #
 [SQL Query: Data Exploration](https://github.com/logaprasath1801/github.project/blob/main/Data%20Exploration.Sql)
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies
-markup : 1.Made the Ride_id as a primary key.
+ 1.Made the Ride_id as a primary key.
          2.Found the null values in each column.
          3.As ride_id has no null values, let's use it to check for duplicates.
          4.All ride_id values have length of 16 so no need to clean it.
@@ -67,7 +67,7 @@ markup : 1.Made the Ride_id as a primary key.
            analysis but can be used to visualise a map.
 
 
-DATA CLEANING
+# DATA CLEANING #
 
 [SQL Query: Data Cleaning](https://github.com/logaprasath1801/github.project/blob/main/Data%20Cleaning.Sql)
 
