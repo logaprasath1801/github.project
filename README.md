@@ -52,18 +52,18 @@ A worksheet cannot be able to manage large amounts of data. The Cyclistic datase
 # DATA EXPLORATION #
 [SQL Query: Data Exploration](https://github.com/logaprasath1801/github.project/blob/main/Data%20Exploration.Sql)
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies
- *Made the Ride_id as a primary key.
- *Found the null values in each column.
- *As ride_id has no null values, let's use it to check for duplicates.
- *All ride_id values have length of 16 so no need to clean it.
- *The started_at and ended_at shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which 
-  has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be 
-  helpful in analysis of trips at different times in a year.
- *Total of 833064 rows have both start_station_name and start_station_id missing which needs to be removed.
- *Total of 892742 rows have both end_station_name and end_station_id missing which needs to be removed.
- *Total of 5858 rows have both end_lat and end_lng missing which needs to be removed.
- *member_casual column has 2 uniqued values as member or casual rider.
- *Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in 
+ * Made the Ride_id as a primary key.
+ * Found the null values in each column.
+ * As ride_id has no null values, let's use it to check for duplicates.
+ * All ride_id values have length of 16 so no need to clean it.
+ * The started_at and ended_at shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which 
+   has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be 
+   helpful in analysis of trips at different times in a year.
+ * Total of 833064 rows have both start_station_name and start_station_id missing which needs to be removed.
+ * Total of 892742 rows have both end_station_name and end_station_id missing which needs to be removed.
+ * Total of 5858 rows have both end_lat and end_lng missing which needs to be removed.
+ * member_casual column has 2 uniqued values as member or casual rider.
+ * Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in 
    analysis but can be used to visualise a map.
 
 
@@ -71,8 +71,8 @@ Before cleaning the data, I am familiarizing myself with the data to find the in
 
 [SQL Query: Data Cleaning](https://github.com/logaprasath1801/github.project/blob/main/Data%20Cleaning.Sql)
 
-*All the rows having missing values are deleted.
-*3 more columns ride_length for duration of the trip, day_of_week and month are added.
-*Trips with duration less than a minute and longer than a day are excluded.
-*Total 1,375,912 rows are removed in this step.
+* All the rows having missing values are deleted.
+* 3 more columns ride_length for duration of the trip, day_of_week and month are added.
+* Trips with duration less than a minute and longer than a day are excluded.
+* Total 1,375,912 rows are removed in this step.
 
