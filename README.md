@@ -22,9 +22,9 @@ Devise marketing strategies to convert casual riders to members.
 Analysis Questions
 Three questions will guide the future marketing program:
 
-* 1.How do annual members and casual riders use Cyclistic bikes differently?
-* 2.Why would casual riders buy Cyclistic annual memberships?
-* 3.How can Cyclistic use digital media to influence casual riders to become members?
+* How do annual members and casual riders use Cyclistic bikes differently?
+* Why would casual riders buy Cyclistic annual memberships?
+* How can Cyclistic use digital media to influence casual riders to become members?
 
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
@@ -52,27 +52,27 @@ A worksheet cannot be able to manage large amounts of data. The Cyclistic datase
 # DATA EXPLORATION #
 [SQL Query: Data Exploration](https://github.com/logaprasath1801/github.project/blob/main/Data%20Exploration.Sql)
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies
- 1.Made the Ride_id as a primary key.
-         2.Found the null values in each column.
-         3.As ride_id has no null values, let's use it to check for duplicates.
-         4.All ride_id values have length of 16 so no need to clean it.
-         5.The started_at and ended_at shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which 
-           has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be 
-           helpful in analysis of trips at different times in a year.
-         6.Total of 833064 rows have both start_station_name and start_station_id missing which needs to be removed.
-         7.Total of 892742 rows have both end_station_name and end_station_id missing which needs to be removed.
-         8.Total of 5858 rows have both end_lat and end_lng missing which needs to be removed.
-         9.member_casual column has 2 uniqued values as member or casual rider.
-         10.Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in 
-           analysis but can be used to visualise a map.
+ *Made the Ride_id as a primary key.
+ *Found the null values in each column.
+ *As ride_id has no null values, let's use it to check for duplicates.
+ *All ride_id values have length of 16 so no need to clean it.
+ *The started_at and ended_at shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which 
+  has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be 
+  helpful in analysis of trips at different times in a year.
+ *Total of 833064 rows have both start_station_name and start_station_id missing which needs to be removed.
+ *Total of 892742 rows have both end_station_name and end_station_id missing which needs to be removed.
+ *Total of 5858 rows have both end_lat and end_lng missing which needs to be removed.
+ *member_casual column has 2 uniqued values as member or casual rider.
+ *Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in 
+   analysis but can be used to visualise a map.
 
 
 # DATA CLEANING #
 
 [SQL Query: Data Cleaning](https://github.com/logaprasath1801/github.project/blob/main/Data%20Cleaning.Sql)
 
-Markup : 1.All the rows having missing values are deleted.
-         2.3 more columns ride_length for duration of the trip, day_of_week and month are added.
-         3.Trips with duration less than a minute and longer than a day are excluded.
-         4.Total 1,375,912 rows are removed in this step.
+*All the rows having missing values are deleted.
+*3 more columns ride_length for duration of the trip, day_of_week and month are added.
+*Trips with duration less than a minute and longer than a day are excluded.
+*Total 1,375,912 rows are removed in this step.
 
