@@ -109,8 +109,11 @@ Take note that casual riders tend to cycle longer than members do on average. Th
 These findings lead to the conclusion that casual commuters travel longer (approximately 2x more) but less frequently than members. They make longer journeys on weekends and during the day outside of commuting hours and in spring and summer season, so they might be doing so for recreation purposes.
 
 SUMMARY:
- |                                                 |                                  |
- |                  CASULAL                        |                 MEMBER           |                   
- |-------------------------------------------------|----------------------------------|
- |  Prefer using bikes throughout the day,more fre |           dadafafafa             |
- |dafffffffffffad                                  |fafaffa                           | 
+ |                                                 |                                                        |
+ |                  CASULAL                        |                 MEMBER                                 |
+ |-------------------------------------------------|--------------------------------------------------------|
+ |  Prefer using bikes throughout the day, more    | Prefer riding bikes on week days during commute hours  |
+   frequently over the summer and spring              (8 am / 5pm) in summer and spring.       
+   for leisure activities.                              
+ | Travel 2 times longer but less frequently than  | Travel more frequently but shorter rides (approximately|
+  members                                            half of casual riders' trip duration).
