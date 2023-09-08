@@ -112,8 +112,8 @@ SUMMARY:
  |                                                 |                                                        |
  |                  CASULAL                        |                 MEMBER                                 |
  |:------------------------------------------------| :------------------------------------------------------|
- |  Prefer using bikes throughout the day, more    | Prefer riding bikes on week days during commute hours  |
-   frequently over the summer and spring              (8 am / 5pm) in summer and spring.       
+ |  Prefer using bikes throughout the day, more frequently  | Prefer riding bikes on week days during commute hours  |
+    over the summer and spring                                (8 am / 5pm) in summer and spring.       
    for leisure activities.                              
  | Travel 2 times longer but less frequently than  | Travel more frequently but shorter rides (approximately|
   members.                                           half of casual riders' trip duration).
