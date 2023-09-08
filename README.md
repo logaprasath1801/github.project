@@ -109,11 +109,15 @@ Take note that casual riders tend to cycle longer than members do on average. Th
 These findings lead to the conclusion that casual commuters travel longer (approximately 2x more) but less frequently than members. They make longer journeys on weekends and during the day outside of commuting hours and in spring and summer season, so they might be doing so for recreation purposes.
 
 SUMMARY:
- |                                                 |                                                        |
- |                  CASULAL                        |                 MEMBER                                 |
- |:------------------------------------------------| :------------------------------------------------------|
- |  Prefer using bikes throughout the day, more frequently  | Prefer riding bikes on week days during commute hours  |
-    over the summer and spring                                (8 am / 5pm) in summer and spring.       
-   for leisure activities.                              
- | Travel 2 times longer but less frequently than  | Travel more frequently but shorter rides (approximately|
-  members.                                           half of casual riders' trip duration).
+ |                                                                                                             |                                                                                               |
+ |                  CASULAL                        |                                                                                   MEMBER                                                                  |
+ |:------------------------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------------|
+ |  Prefer using bikes throughout the day, more frequently  over the summer and spring for leisure activities. |Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.       |                                                          
+ | Travel 2 times longer but less frequently than members                                                      | 	Travel more frequently but shorter rides (approximately half of casual riders' trip duration)| 
+
+ # ACT #
+ After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
+ ## RECOMMENDATIONS ##
+ * Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
+ * Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
+ * Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
